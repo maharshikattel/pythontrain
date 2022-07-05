@@ -37,16 +37,21 @@ print("The first value of a -->", a)
 a = "Apple"
 print("The second value of a -->", a)
 """
+
+
+"""
 numericvalue = 12 
 print("the first value of a is -->",numericvalue)
 fruitname = "Apple"
 print("the second vaue of a is -->",fruitname)
+"""
+
 
 """
 numeric_value ==> snake_case_writing (recommended for python)
 numericValue ==> camelCaseWriting
 """
 
-
-
+user_provided_fruit = input("Say your favourite food, NOW!!!: ")
+print("The nerd's favourite fruit is -->",user_provided_fruit)
 
