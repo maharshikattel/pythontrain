@@ -52,6 +52,17 @@ numeric_value ==> snake_case_writing (recommended for python)
 numericValue ==> camelCaseWriting
 """
 
+"""
 user_provided_fruit = input("Say your favourite food, NOW!!!: ")
 print("The nerd's favourite fruit is -->",user_provided_fruit)
+"""
 
+"""
+HOW TO DO IT WRONG
+first_name = input("Give me your first name: ")
+last_name = input ("Last name pls: ")
+print("Your full name is :", first_name, last_name)
+"""
+first_name = input("Give me your first name: ")
+last_name = input ("Last name pls: ")
+print("Your full name is :", first_name +" " + last_name)
