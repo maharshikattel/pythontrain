@@ -20,27 +20,26 @@ while i<=number:
     
 print("Sum is " + str(sum))"""
 
-"""
+
 number = input("Enter a four digit number: ")
 i = len(number)
 int(number)
 sum = 0
-int(sum)
 digit = 0
-int(digit)
-while i > 0:
-    digit = number[i]
+while i > 1:
+    int(sum)
+    digit = number[i-1]
+    int(digit)
     sum += digit
-    number = number%10
-print("Sum is " + str(sum))"""
+print("Sum is " + str(sum))
 
-full_name = input("Enter a full name: ")
+"""full_name = input("Enter a full name: ")
 store = ""
 i = 0
 while i < len(full_name):
     if full_name[i] not in store:
         print(f"{full_name[i]} : {full_name.upper().count(full_name[i].upper())}")
-        i += 1
+        i += 1"""
 
 
 # break and continue keyword
