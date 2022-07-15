@@ -95,7 +95,7 @@ def give_me_list(num):
 mero_list = give_me_list(10)
 print(mero_list)"""
 
-num = int(input("Enter number: "))
+"""num = int(input("Enter number: "))
 def list1(num):
     global square
     square=[]
@@ -104,4 +104,67 @@ def list1(num):
     return square
 
 sq = list1(num)
-print (sq)
+print (sq)"""
+
+"""list1 = ["Aryama","Kritika","Rushav","Samay","Maharshi"]
+
+def rev_string(list1):
+    i = 1
+    reversed = []
+    while (i<=5):
+        popped = list1.pop()
+        reversed.append(popped[::-1])
+        return reversed
+
+
+rev = rev_string(list1)
+print(rev)"""
+
+"""num = int(input("Enter a number: "))
+def give_me_list(num):
+    global my_list
+    my_list=[]
+    for i in range(0,num+1):
+        my_list.append(i)
+    return my_list
+
+mero_list = give_me_list(num)
+print(mero_list)
+
+def odd_even(mero_list):
+    odd = []
+    even = []
+    for i in range(0,num+1):
+        check = i % 2
+        if check==0:
+            even.append(i)
+        else:
+            odd.append(i)
+    return [odd,even]
+
+returned = odd_even(my_list)
+print(returned)"""
+        
+num = int(input ("Enter a number: "))
+generate_list = list(range(0,num+1))
+
+def odd_even(generate_list):
+    odd = []
+    even = []
+    for i in range(0,num+1):
+        check = i % 2
+        if check==0:
+            even.append(i)
+        else:
+            odd.append(i)
+    return [odd,even]
+
+returned = odd_even(generate_list)
+print(returned)
+
+def list_length(returned):
+    len = returned.check("[")
+    return len
+
+length = list_length(returned)
+print(length)
