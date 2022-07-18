@@ -65,3 +65,5 @@ create_string_from_tuples = str(new_tuples)
 print(f"The string is: {create_string_from_tuples} and its type is: {type(create_string_from_tuples)}")
 
 
+
+
